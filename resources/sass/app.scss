@@ -6,3 +6,10 @@
 @import "node_modules/font-awesome/scss/font-awesome";
 
 @import "node_modules/buefy/src/scss/buefy";
+
+//custom stuff SASS pages
+
+@import "overrides";
+@import "helpers";
+@import "styles";
+

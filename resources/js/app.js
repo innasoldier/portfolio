@@ -1,10 +1,22 @@
+import Buefy from "buefy";
+
 require('./bootstrap');
 
 window.Vue = require('vue');
 
+import Vue from 'vue';
+
+import Buefy from 'buefy';
+
 Vue.use(Buefy);
-// const files = require.context('./', true, /\.vue$/i)
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-//Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+let app = new Vue({
+    el: '#app',
+    data: {}
+});
 
+$(document).ready(function () {
+    $('button.dropdown').hover(function(e) {
+        $(this).toggleClass('is-open');
+    });
+});
