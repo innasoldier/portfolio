@@ -1,14 +1,10 @@
-import Buefy from "buefy";
-
 require('./bootstrap');
 
 window.Vue = require('vue');
 
 import Vue from 'vue';
 
-import Buefy from 'buefy';
-
-Vue.use(Buefy);
+//Vue.use(Buefy);
 
 let app = new Vue({
     el: '#app',

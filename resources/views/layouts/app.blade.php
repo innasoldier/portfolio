@@ -29,8 +29,8 @@
                     </a>
                     <a href="#" class="navbar-item is-tab is-hidden-mobile m-l-10">Portfolio</a>
                     <a href="#" class="navbar-item is-tab is-hidden-mobile">Lessons</a>
-                    <a href="#" class="navbar-item is-tab is-hidden-mobile">Forum</a>
-                    <a href="#" class="navbar-item is-tab is-hidden-mobile">Share</a>
+                    <a href="#" class="navbar-item is-tab is-hidden-mobile">Blog</a>
+                    <a href="#" class="navbar-item is-tab is-hidden-mobile">Contact</a>
                 </div>
                 @guest
                     <div class="navbar-end">
@@ -85,5 +85,14 @@
             @yield('content')
         </main>
     </div>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -23,11 +23,11 @@
         "sass": "^1.20.1",
         "sass-loader": "^8.0.0",
         "vue": "^2.5.17",
-        "vue-template-compiler": "^2.6.10"
+        "vue-template-compiler": "^2.6.10",
+        "buefy": "^0.8.18",
+        "bulma": "^0.8.2"
     },
     "dependencies": {
-        "buefy": "^0.8.18",
-        "bulma": "^0.8.2",
         "font-awesome": "^4.7.0"
     }
 }
